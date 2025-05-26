@@ -2,7 +2,9 @@
 
 A sophisticated AI implementation for the classic Gomoku (Five in a Row) board game, featuring advanced minimax algorithms with multiple performance optimizations.
 
-![Screenshot](https://github.com/username/repo/assets/image-id)
+<p align="center">
+  <img src="https://github.com/MohamedAboAlaa/gomokuAI/blob/4c971ff94798aa234facc11761dda12baa4a12ae/Code/gomokuAI-py/analysis/game_animation.gif" />
+</p>
 
 ## 🎮 Game Overview
 
@@ -45,6 +47,10 @@ Gomoku is a two-player strategy board game played on a 15×15 grid. Players alte
 
 ## 📊 Performance Metrics
 
+<p align="center">
+  <img src="https://github.com/MohamedAboAlaa/gomokuAI/blob/4c971ff94798aa234facc11761dda12baa4a12ae/Code/gomokuAI-py/analysis/ai_move_time_graph.png" />
+</p>
+
 ### Time Complexity
 - **Without Optimizations**: O(225^d) ≈ 11.4 billion nodes at depth 3
 - **With Optimizations**: O(20^(d/2)) ≈ 894 nodes at depth 3
@@ -82,21 +88,9 @@ The AI evaluates positions using a sophisticated pattern dictionary:
 
 ### Installation
 ```bash
-git clone [repository-url]
-cd gomoku-ai
-python gomoku.py
-```
-
-### Usage
-```python
-# Initialize the AI
-ai = GomokuAI(depth=4)  # Default depth
-
-# Make AI move
-ai.ai_move()
-
-# Check game result
-result = ai.checkResult()
+git clone https://github.com/MohamedAboAlaa/gomokuAI.git
+cd gomokuAI
+python play.py
 ```
 
                     
@@ -150,7 +144,7 @@ This project was developed as part of ELE335 coursework.
 
 ## 📚 Technical Details
 
-For comprehensive technical analysis, algorithm explanations, and detailed performance benchmarks, see the [full project report](Project_1_Report_G8.docx).
+For comprehensive technical analysis, algorithm explanations, and detailed performance benchmarks, see the [full project report](https://github.com/MohamedAboAlaa/gomokuAI/blob/b9c52c101900dd37f9a76fe989faacdc83200ce0/Report/Project_1_Report_G8.pdf).
 
 ## 🏆 Results
 
